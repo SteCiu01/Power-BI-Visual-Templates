@@ -23,5 +23,5 @@ This makes it suitable for a wide range of analytical scenarios while maintainin
 
 **Step 1: download the template in pbix**
 
-[📥 Download Here]()
+[📥 Download Here](https://github.com/SteCiu01/Power-BI-Visual-Templates/raw/refs/heads/main/IBCS%20Style%20Column%20Chart/Files/Visuals%20Templates%20IBCS%20Column%20Chart.pbix)
 
