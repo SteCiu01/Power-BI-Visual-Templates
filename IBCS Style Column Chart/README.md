@@ -229,7 +229,11 @@ If you want to keep the IBCS style theme you can download it [at this link](http
 
 ### Final Considerations
 
-After completing the six steps, your IBCS-style column chart should be fully functional and ready for use across all your measures. This template offers maximum flexibility: you can control which measures appear on each report page by either hiding them from the slicer or selecting a single measure using the Measure column of the IBCS-Column-Chart-Measures-Selector as a visual-level filter. You can also choose between time-based trends or Actual vs. SPLY comparisons for specific categories.
+After completing the six steps, your IBCS-style column chart should be fully functional and ready for use across all your measures. 
+
+This template offers maximum flexibility: you can control which measures appear on each report page by either hiding them from the slicer or selecting a single measure using the Measure column of the IBCS-Column-Chart-Measures-Selector as a visual-level filter. 
+
+You can also choose between time-based trends or Actual vs. SPLY comparisons for specific categories.
 
 The only minor limitation is that you may need to fine-tune the colors of the bars and variance indicators depending on your report theme, as color settings cannot be fully automated via the measure-based color logic. This can easily be corrected using the IBCS theme included with the template.
 
