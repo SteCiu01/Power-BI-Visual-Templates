@@ -235,4 +235,4 @@ The only minor limitation is that you may need to fine-tune the colors of the ba
 
 Replicating this template in your own report is quick: depending on the number of measures, it should take no more than 5–10 minutes. Once set up, the template ensures a consistent IBCS-compliant visual design while allowing seamless scalability for additional measures and future analyses.
 
-Please let me know in case of bugs and/or improvements, I am more than ope to have some cooperations.
+Please let me know in case of bugs and/or improvements, I am very open to have some cooperations.
