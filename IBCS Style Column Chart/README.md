@@ -25,3 +25,39 @@ This makes it suitable for a wide range of analytical scenarios while maintainin
 
 [📥 Download Here](https://github.com/SteCiu01/Power-BI-Visual-Templates/raw/refs/heads/main/IBCS%20Style%20Column%20Chart/Files/Visuals%20Templates%20IBCS%20Column%20Chart.pbix)
 
+**Step 2: Create the measures selector (parameter) table**
+
+Create a calculated table in your model that will act as a measure selector parameter, using the following DAX code:
+
+```
+IBCS-Column-Chart-Measures-Selector =
+DATATABLE (
+    "Measure", STRING,
+    "Order", INTEGER,
+    {
+        { "Total Sales ($)", 0 },
+        { "Total Qty Sold", 1 }
+    }
+)
+```
+Guidelines
+- Use user-friendly names for the measures.
+- For example, if your actual measure is called [tot_sales_usd], expose it as "Total Sales ($)".
+
+Assign an explicit order, following the same concept as field parameters, to control how measures appear in the selector.
+
+Note
+Even if you only need to visualize a single measure, it is recommended to create this table anyway. This approach ensures future scalability, allowing you to add more measures later without changing the visual logic.
+
+Single-measure example
+
+```
+IBCS-Column-Chart-Measures-Selector =
+DATATABLE (
+    "Measure", STRING,
+    "Order", INTEGER,
+    {
+        { "Total Sales ($)", 0 }
+    }
+)
+```
