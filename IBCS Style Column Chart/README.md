@@ -21,3 +21,7 @@ This makes it suitable for a wide range of analytical scenarios while maintainin
 
 ### How to use it
 
+**Step 1: download the template in pbix**
+
+[📥 Download Here]()
+
