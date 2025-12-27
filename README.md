@@ -10,4 +10,4 @@ Feel free to fork the templates and reach out if you have ideas for improvements
 
 | Template | Description | Link |
 | -------- | ----------- | ---- |
-| IBCS Style Column Chart | Column Chart formatted in IBCS stye | Link |
+| IBCS Style Column Chart | Column Chart formatted in IBCS stye | [Link](https://github.com/SteCiu01/Power-BI-Visual-Templates/tree/main/IBCS%20Style%20Column%20Chart) |
