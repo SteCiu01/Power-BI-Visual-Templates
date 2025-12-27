@@ -15,7 +15,7 @@ This template allows you to visualize multiple measures within a single chart an
 The template can be used for both:
 
 - Time-based analyses, such as Year–Quarter–Month hierarchies
-- Categorical analyses, such as product or category hierarchies
+- Categorical analyses, such as Category-Product hierarchies
 
 This makes it suitable for a wide range of analytical scenarios while maintaining a consistent IBCS-style visual design.
 
