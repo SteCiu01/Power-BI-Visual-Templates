@@ -231,7 +231,7 @@ If you want to keep the IBCS style theme you can download it [at this link](http
 
 After completing the six steps, your IBCS-style column chart should be fully functional and ready for use across all your measures. 
 
-This template offers maximum flexibility: you can control which measures appear on each report page by either hiding them from the slicer or selecting a single measure using the Measure column of the IBCS-Column-Chart-Measures-Selector as a visual-level filter. 
+This template offers maximum flexibility: you can control which measures appear on each report page by either hiding them from the slicer or selecting a single measure using the Measure column of the IBCS-Column-Chart-Measures-Selector as a visual-level filter. This is very important because if you have different topics in one model, you can build only one measure selector in the model and then, in each page you can decide what "allow" the users to see. Also, the measures selector might come handy also for other visuals.
 
 You can also choose between time-based trends or Actual vs. SPLY comparisons for specific categories.
 
