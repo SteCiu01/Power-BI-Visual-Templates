@@ -6,7 +6,7 @@ Below the links to the specific pages for each of the templats i created. In the
 
 Below are the links to the dedicated pages for each template I created. On each page, you’ll find the .pbix file containing the template ready to be copied and pasted into your report, along with detailed steps and instructions on how to use it. 
 
-Feel free to fork the templates and reach out if you have ideas for improvements or enhancements.
+Feel free to reach out if you have ideas for improvements or enhancements.
 
 | Template | Description | Link |
 | -------- | ----------- | ---- |
