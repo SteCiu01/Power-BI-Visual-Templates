@@ -41,8 +41,9 @@ DATATABLE (
 )
 ```
 Guidelines
-- Use user-friendly names for the measures.
-- For example, if your actual measure is called [tot_sales_usd], expose it as "Total Sales ($)".
+- Use user-friendly names for the measures
+- For example, if your actual measure is called [tot_sales_usd], expose it as "Total Sales ($)"
+- Create as many rows as the measures you need to use in this visual
 
 Assign an explicit order, following the same concept as field parameters, to control how measures appear in the selector.
 
@@ -67,7 +68,7 @@ DATATABLE (
 
 **⚠ IMPORTANT**
 
-Before running these DAX Query View codes in steps 3 and 4 you need to make sure the 'MeasuresTable' in the code has the same name of your table where you want to save the measures.
+Before running these DAX Query View codes in steps 3 and 5 you need to make sure the 'MeasuresTable' in the code has the same name of your table where you want to save the measures.
 
 ```
 DEFINE
@@ -140,7 +141,7 @@ Guidelines:
 
 Single-measure note:
 
-You cound set a standard formatting, although I advise you to set it up as above for scalability
+You could set a standard formatting, although I advise you to set it up as above for scalability
 
 **⚙️ Step 5: Create the Automatic measures**
 
@@ -180,7 +181,7 @@ Guidelines:
 - Start to create these measures without changing name and/or content.
 - They should be populated and ready for the next steps.
 
-Pro Tip: Organise all the measures we made until now in this folder structure below
+**Pro Tip:** Organise all the measures we made until now in this folder structure below
 
 ```
 📁 SPLY Column Chart
@@ -224,4 +225,14 @@ However, the colour of the columns and variances might be different depending on
 - Markers
 - Error Bars
 
-If you want to keep the IBCS style theme you can download it [📥 here]() and upload it in your report.
+If you want to keep the IBCS style theme you can download it [at this link](https://github.com/SteCiu01/Power-BI-Visual-Templates/blob/main/IBCS%20Style%20Column%20Chart/Files/Theme_IBCS.json) and upload it in your report.
+
+### Final Considerations
+
+After completing the six steps, your IBCS-style column chart should be fully functional and ready for use across all your measures. This template offers maximum flexibility: you can control which measures appear on each report page by either hiding them from the slicer or selecting a single measure using the Measure column of the IBCS-Column-Chart-Measures-Selector as a visual-level filter. You can also choose between time-based trends or Actual vs. SPLY comparisons for specific categories.
+
+The only minor limitation is that you may need to fine-tune the colors of the bars and variance indicators depending on your report theme, as color settings cannot be fully automated via the measure-based color logic. This can easily be corrected using the IBCS theme included with the template.
+
+Replicating this template in your own report is quick: depending on the number of measures, it should take no more than 5–10 minutes. Once set up, the template ensures a consistent IBCS-compliant visual design while allowing seamless scalability for additional measures and future analyses.
+
+Please let me know in case of bugs and/or improvements, I am more than ope to have some cooperations.
