@@ -11,3 +11,4 @@ Feel free to reach out if you have ideas for improvements or enhancements.
 | Template | Description | Link |
 | -------- | ----------- | ---- |
 | IBCS Style Column Chart | Column Chart formatted in IBCS stye | [Link](https://github.com/SteCiu01/Power-BI-Visual-Templates/tree/main/IBCS%20Style%20Column%20Chart) |
+| IBCS Style Column Chart Simplified | olumn Chart formatted in IBCS stye, but simplified and displaying the % Variance only | [Link](https://github.com/SteCiu01/Power-BI-Visual-Templates/tree/main/IBCS%20Style%20Column%20Chart%20Simplified) |
