@@ -187,7 +187,6 @@ Guidelines:
 |
 ├─ 📁 0. Control Chart Settings
 │  ├─ IBCS_Column_Chart_Max-y-axis-FullChart
-│  ├─ IBCS_Column_Chart_Max-y-axis-SimpleChart
 │  ├─ IBCS_Column_Chart_Secondary-Axis-Max
 │  ├─ IBCS_Column_Chart_Secondary-Axis-Min
 │  ├─ IBCS_Column_Chart_Title
