@@ -156,7 +156,6 @@ DEFINE
 	    [Actual] - [SPLY],
 	    [SPLY]
 	)
-	MEASURE 'MeasuresTable'[Δ vs. SPLY] = [Actual] - [SPLY]
 
     MEASURE 'MeasuresTable'[IBCS_Column_Chart_Δ-%-grey-line-height] = 0.0000001 
     MEASURE 'MeasuresTable'[IBCS_Column_Chart_Δ-grey-line-height] = -3.5
@@ -204,7 +203,6 @@ Guidelines:
 │
 ├─ 📁 1. Metrics Automatic
 │  ├─ Δ % vs. SPLY
-│  └─ Δ vs. SPLY
 │
 └─ 📁 1. Metrics to Modify
    ├─ Actual
