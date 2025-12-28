@@ -219,7 +219,7 @@ You need to go to the .pbix file you downloaded at the beginning, and copy and p
 
 All should work correctly. 
 
-However, the colour of the columns and variances might be different depending on your theme. If you want to adjust them based on your theme, you need to manually play with the formatting and then:
+However, the colour of the columns and variances might be different depending on your theme. If you want to adjust them based on your theme, you need to manually play with the formatting for the following:
 - Columns
 - Lines
 - Markers
