@@ -1,4 +1,4 @@
-# IBCS Style Column Chart 
+# IBCS Style Column Chart Simplified (Only % Variance)
 
 #### Over Time
 
