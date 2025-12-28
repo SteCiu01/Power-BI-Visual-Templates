@@ -163,9 +163,7 @@ DEFINE
     MEASURE 'MeasuresTable'[IBCS_Column_Chart_Secondary-Axis-Max] = 2
     MEASURE 'MeasuresTable'[IBCS_Column_Chart_Secondary-Axis-Min] = -8
     MEASURE 'MeasuresTable'[IBCS_Column_Chart_Max-y-axis-FullChart] = 6.5
-	
-    MEASURE 'MeasuresTable'[IBCS_Column_Chart_Title] = SELECTEDVALUE('IBCS-Column-Chart-Measures-Selector'[Measure]) & 
-	"  " & "⬛ Actual vs. ⬜ SPLY"
+	MEASURE 'MeasuresTable'[IBCS_Column_Chart_Title] = SELECTEDVALUE('IBCS-Column-Chart-Measures-Selector'[Measure]) & "‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎" & "⬛ Actual vs. ⬜ SPLY"
 
 	MEASURE 'MeasuresTable'[IBCS_Column_Chart_ColorTransparent] = "#FFFFFF00" -- Transparent color
     MEASURE 'MeasuresTable'[IBCS_Column_Chart_ColorLightBlack] = "#404040"   -- Actual bars (IBCS dark gray)
