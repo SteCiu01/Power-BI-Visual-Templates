@@ -245,7 +245,6 @@ Replicating this template in your own report is quick: depending on the number o
 The only limitations are: 
 
 - Need to fine-tune the colors of the bars and variance indicators depending on your report theme, as color settings cannot be fully automated via the measure-based color logic. This can easily be corrected using the IBCS theme included with the template.
-- Δ vs. SPLY labels do not support display units: Auto - there is the need to set manually thousands, millions, etc.
 - Some issues when working with models built online and consumed in direct lake. Particularly there is the need to re-map all the measures in the visual, as measures in online models struggle to synch. Also, online models show some issues when it comes to dynamic formatting (not possible online, but only in desktop, but not working as expected if done while the model is based online).
 
 Please let me know in case of bugs and/or improvements, I am very open to have some cooperations.
