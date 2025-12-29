@@ -64,11 +64,21 @@ DATATABLE (
 )
 ```
 
-**⚙️ Step 3: Create the measures that needs to be amended**
+**⚙️ Step 3: Create the measures [Actual] and [SPLY] that needs to be amended**
 
 **⚠ IMPORTANT**
 
-Before running these DAX Query View codes in steps 3 and 5 you need to make sure the 'MeasuresTable' in the code has the same name of your table where you want to save the measures.
+Before running these DAX Query View codes in steps 3 and 5 make sure the 'MeasuresTable' in the code has the same name of your table where you want to save the measures. 
+
+‼️ This is crucial to make everything work smoothly: if your measures table is called 'Tables for Measures', for example, follow these steps:
+
+- Rename the 'MeasuresTable' of the template you just downloaded into 'Tables for Measures'
+- Change the codes below replacing 'MeasuresTable' with 'Tables for Measures'
+- Run these codes in your model to add the measures.
+
+Following these steps you avoid the mismatch between the template and your model. 
+
+You will just need to substitute the x-axis fields with your fields.
 
 ```
 DEFINE
@@ -222,7 +232,7 @@ However, the colour of the columns and variances might be different depending on
 
 If you want to keep the IBCS style theme you can download it [at this link](https://github.com/SteCiu01/Power-BI-Visual-Templates/blob/main/IBCS%20Style%20Column%20Chart%20Simplified/Files/Theme_IBCS.json) and upload it in your report.
 
-### Final Considerations
+### Final Considerations and limitations
 
 After completing the six steps, your IBCS-style column chart should be fully functional and ready for use across all your measures. 
 
@@ -230,8 +240,12 @@ This template offers maximum flexibility: you can control which measures appear 
 
 You can also choose between time-based trends or Actual vs. SPLY comparisons for specific categories.
 
-The only minor limitation is that you may need to fine-tune the colors of the bars and variance indicators depending on your report theme, as color settings cannot be fully automated via the measure-based color logic. This can easily be corrected using the IBCS theme included with the template.
-
 Replicating this template in your own report is quick: depending on the number of measures, it should take no more than 5–10 minutes. Once set up, the template ensures a consistent IBCS-compliant visual design while allowing seamless scalability for additional measures and future analyses.
+
+The only limitations are: 
+
+- Need to fine-tune the colors of the bars and variance indicators depending on your report theme, as color settings cannot be fully automated via the measure-based color logic. This can easily be corrected using the IBCS theme included with the template.
+- Δ vs. SPLY labels do not support display units: Auto - there is the need to set manually thousands, millions, etc.
+- Some issues when working with models built online and consumed in direct lake. Particularly there is the need to re-map all the measures in the visual, as measures in online models struggle to synch. Also, online models show some issues when it comes to dynamic formatting (not possible online, but only in desktop, but not working as expected if done while the model is based online).
 
 Please let me know in case of bugs and/or improvements, I am very open to have some cooperations.
