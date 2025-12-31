@@ -99,7 +99,8 @@ DEFINE
 Guidelines
 - These measures are based on the parameter table we created earlier.
 - The structure is set so that when the parameter is used in a slicer, the correct measure is displayed based on the selection.
-- Replace the 4 sample measures here ([Total Sales $], [Total Sales Qty], [SPLY Sales $], [SPLY Sales Qty]) with your measures that you have referenced in the parameter table.
+- In our template we set in the parameter the possibility to switch between Total Sales ($) and Total Qty Sold, therefore for both metrics we need Actual and SPLY.
+- Replace the 4 sample measures of the template ([Total Sales $], [Total Sales Qty], [SPLY Sales $], [SPLY Sales Qty]) with your measures that you have referenced in the parameter table.
 
 Here you can see the column "Measure" of the parameter table used in the slicer for selecting what measure to display
 
