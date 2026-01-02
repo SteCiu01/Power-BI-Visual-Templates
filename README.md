@@ -20,6 +20,8 @@ This design has two key implications:
 
 Desktop-based templates, on the other hand, offer maximum flexibility and control, as all supporting measures are authored and managed directly in the semantic mod
 
+<hr>
+
 ### Column Charts
 
 | Template | Description | Compatibility | Link |
