@@ -6,7 +6,25 @@ Below are the links to the dedicated pages for each template I created. On each 
 
 Feel free to reach out if you have ideas for improvements or enhancements.
 
-| Template | Description | Link |
-| -------- | ----------- | ---- |
-| IBCS Style Column Chart | Column Chart formatted in IBCS stye | [Link](https://github.com/SteCiu01/Power-BI-Visual-Templates/tree/main/IBCS%20Style%20Column%20Chart) |
-| IBCS Style Column Chart Simplified | Column Chart formatted in IBCS stye, but simplified and displaying the % Variance only | [Link](https://github.com/SteCiu01/Power-BI-Visual-Templates/tree/main/IBCS%20Style%20Column%20Chart%20Simplified) |
+### Power BI Desktop Models vs. Direct Lake Models
+
+Depending on how your semantic model is authored, you should choose the most compatible template:
+	•	Templates for Power BI Desktop–authored models
+	•	Templates for Models authored in Power BI Service / Microsoft Fabric and consumed via Direct Lake
+
+When using Direct Lake–based models, measure references embedded in visuals can break or fail to synchronize correctly. For this reason, Direct Lake–compatible templates are designed with:
+	•	Fewer measures
+	•	Greater reliance on visual-level configuration instead of model-level control measures
+
+This design has two key implications:
+	•	Fewer references to fix when copying the visual into a report connected to a Direct Lake model
+	•	Slightly reduced configurability, compared to Desktop-based templates that can leverage a richer set of control and settings measures
+
+Desktop-based templates, on the other hand, offer maximum flexibility and control, as all supporting measures are authored and managed directly in the semantic mod
+
+### Column Charts
+
+| Template | Description | Compatibility | Link |
+| -------- | ----------- | ---- | ---- |
+| IBCS Style Column Chart | Column Chart formatted in IBCS stye | PBI Desktop | [Link](https://github.com/SteCiu01/Power-BI-Visual-Templates/tree/main/IBCS%20Style%20Column%20Chart) |
+| IBCS Style Column Chart Simplified | Column Chart formatted in IBCS stye, but simplified and displaying the % Variance only | PBI Desktop | [Link](https://github.com/SteCiu01/Power-BI-Visual-Templates/tree/main/IBCS%20Style%20Column%20Chart%20Simplified) |
