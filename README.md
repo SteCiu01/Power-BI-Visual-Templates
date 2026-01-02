@@ -16,7 +16,7 @@ When using Direct Lake–based models, measure references embedded in visuals ca
 
 This design has two key implications:
 - Fewer references to fix when copying the visual into a report connected to a Direct Lake model
-- Slightly reduced configurability, compared to Desktop-based templates that can leverage a richer set of control and settings measures
+- Slightly reduced ease in configurability, compared to Desktop-based templates that can leverage a set of control and settings measures (easier to just amend in the measures table).
 
 Desktop-based templates, on the other hand, offer maximum flexibility and control, as all supporting measures are authored and managed directly in the semantic model
 
