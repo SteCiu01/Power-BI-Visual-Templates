@@ -4,8 +4,6 @@ By leveraging visual calculations, it is possible to create reusable, parameter-
 
 Below are the links to the dedicated pages for each template I created. On each page, you’ll find the .pbix file containing the template ready to be copied and pasted into your report, along with detailed steps and instructions on how to use it. 
 
-Feel free to reach out if you have ideas for improvements or enhancements.
-
 ### Power BI Desktop Models vs. Direct Lake Models
 
 Depending on how your semantic model is authored, you should choose the most compatible template:
@@ -28,3 +26,7 @@ Desktop-based templates, on the other hand, offer maximum flexibility and contro
 | -------- | ----------- | ---- | ---- |
 | IBCS Style Column Chart | Column Chart formatted in IBCS stye | PBI Desktop | [Link](https://github.com/SteCiu01/Power-BI-Visual-Templates/tree/main/IBCS%20Style%20Column%20Chart) |
 | IBCS Style Column Chart Simplified | Column Chart formatted in IBCS stye, but simplified and displaying the % Variance only | PBI Desktop | [Link](https://github.com/SteCiu01/Power-BI-Visual-Templates/tree/main/IBCS%20Style%20Column%20Chart%20Simplified) |
+
+<hr>
+
+Feel free to reach out if you have ideas for improvements or enhancements.
