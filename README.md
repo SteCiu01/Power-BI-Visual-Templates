@@ -7,16 +7,16 @@ Below are the links to the dedicated pages for each template I created. On each 
 ### Power BI Desktop Models vs. Direct Lake Models
 
 Depending on how your semantic model is authored, you should choose the most compatible template:
-	•	Templates for Power BI Desktop–authored models
-	•	Templates for Models authored in Power BI Service / Microsoft Fabric and consumed via Direct Lake
+- Templates for Power BI Desktop–authored models
+- Templates for Models authored in Power BI Service / Microsoft Fabric and consumed via Direct Lake
 
 When using Direct Lake–based models, measure references embedded in visuals can break or fail to synchronize correctly. For this reason, Direct Lake–compatible templates are designed with:
-	•	Fewer measures
-	•	Greater reliance on visual-level configuration instead of model-level control measures
+- Fewer measures
+- Greater reliance on visual-level configuration instead of model-level control measures
 
 This design has two key implications:
-	•	Fewer references to fix when copying the visual into a report connected to a Direct Lake model
-	•	Slightly reduced configurability, compared to Desktop-based templates that can leverage a richer set of control and settings measures
+- Fewer references to fix when copying the visual into a report connected to a Direct Lake model
+- Slightly reduced configurability, compared to Desktop-based templates that can leverage a richer set of control and settings measures
 
 Desktop-based templates, on the other hand, offer maximum flexibility and control, as all supporting measures are authored and managed directly in the semantic mod
 
