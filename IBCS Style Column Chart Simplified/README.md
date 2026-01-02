@@ -149,8 +149,7 @@ SWITCH(
 )
 ```
 
-Guidelines:
-- You know what measure corresponds to Order 0, 1, or 2, etc.. in your data model, and you need to adapt this code to your use case.
+Guidelines: considering what measure corresponds to Order 0, 1, or 2, etc.. in your measures selector, you need to adapt this code to your use case so that if Order = 0 is a currency and Order = 1 is a decimal value, you amend the code accordingly.
 
 Single-measure note:
 
