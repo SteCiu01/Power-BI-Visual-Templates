@@ -23,7 +23,7 @@ This makes it suitable for a wide range of analytical scenarios while maintainin
 
 **⚙️ Step 1: download the template in pbix**
 
-[📥 Download Here](https://github.com/SteCiu01/Power-BI-Visual-Templates/raw/refs/heads/main/IBCS%20Style%20Column%20Chart/Files/Visuals%20Templates%20IBCS%20Column%20Chart.pbix)
+[📥 Download Here](https://github.com/SteCiu01/Power-BI-Visual-Templates/raw/refs/heads/main/IBCS%20Style%20Column%20Chart%20v2/Visuals%20Templates%20IBCS%20Column%20Chart%20-%20v2.pbix)
 
 **⚙️ Step 2: Create the measures selector (parameter) table**
 
@@ -365,7 +365,7 @@ However, the colour of the columns and variances might be different depending on
 - Markers
 - Error Bars
 
-If you want to keep the IBCS style theme you can download it [at this link](https://github.com/SteCiu01/Power-BI-Visual-Templates/blob/main/IBCS%20Style%20Column%20Chart/Files/Theme_IBCS.json) and upload it in your report.
+If you want to keep the IBCS style theme you can download it [at this link](https://github.com/SteCiu01/Power-BI-Visual-Templates/blob/main/IBCS%20Style%20Column%20Chart%20v2/Theme_IBCS.json) and upload it in your report.
 
 Finally you might need to adjust the font size of the data labels, remove their background and remove data labels for SPLY. You can use the template as reference to correct these aspects.
 
