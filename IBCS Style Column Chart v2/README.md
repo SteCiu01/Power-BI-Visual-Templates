@@ -339,12 +339,26 @@ Guidelines:
    └─ SPLY
 ```
 
-**⚙️ Step 6: Bring in the Column Chart**
+**⚙️ Step 6: Bring in the Column Chart and re-sync the measures**
 
 You need to go to the .pbix file you downloaded at the beginning, and copy and paste the column chart into your report.
 
-All should work correctly. 
+The measures references in the visual will be now broken as this is what happens in report using Direct Lake.
 
+You need to fix them substituting the broken measures as in the following places:
+
+```
+[Actual] -> Column y-axis 
+[SPLY] -> Column y-axis 
+        
+[Actual_Format] -> Visual Format > Data Labels > Actual > Value
+[Δ_%_vs_SPLY_Format] -> Visual Format > Data Labels > Δ % Positive and Δ % Negative > Value
+[Δ_vs_SPLY_Format] -> Visual Format > Data Labels > Δ Positive and Δ Negative > Value
+        
+[IBCS_Column_Chart_Δ-%-grey-line-height] -> Line y-axis (hidden) and Visual Format > Error Bars > Δ % Positive > Upper Bound and Δ % Negative > Lower Bound
+[IBCS_Column_Chart_Δ-grey-line-height] -> Line y-axis (hidden) and Visual Format > Error Bars > Δ Positive > Upper Bound and Δ Negative > Lower Bound
+[IBCS_Column_Chart_Title] -> Visual Format > Title > Text
+```
 However, the colour of the columns and variances might be different depending on your theme. If you want to adjust them based on your theme, you need to manually play with the formatting for the following:
 - Columns
 - Lines
@@ -352,6 +366,8 @@ However, the colour of the columns and variances might be different depending on
 - Error Bars
 
 If you want to keep the IBCS style theme you can download it [at this link](https://github.com/SteCiu01/Power-BI-Visual-Templates/blob/main/IBCS%20Style%20Column%20Chart/Files/Theme_IBCS.json) and upload it in your report.
+
+Finally you might need to adjust the font size of the data labels, remove their background and remove data labels for SPLY. You can use the template as reference to correct these aspects.
 
 ### Final Considerations and limitations
 
@@ -365,8 +381,8 @@ Replicating this template in your own report is quick: depending on the number o
 
 The only limitations are: 
 
+- The need of re-ma the measures as they break using Direct Lake.
 - The need to fine-tune the colors of the bars and variance indicators depending on your report theme, as color settings cannot be fully automated via the measure-based color logic. This can easily be corrected using the IBCS theme included with the template.
-- Δ vs. SPLY labels do not support display units: Auto - there is the need to set manually thousands, millions, etc.
-- Models authored online and consumed in Direct Lake show instability in measure bindings, often requiring re-mapping of measures in visuals. Additionally, dynamic formatting is not supported in online authoring and behaves inconsistently when applied from Desktop to an online-based model.
+- The need of fine tuning data labels after re-mappinng the measures.
 
 Please let me know in case of bugs and/or improvements, I am very open to have some cooperations.
