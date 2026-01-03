@@ -2,11 +2,11 @@
 
 #### Over Time
 
-<img width="100%" alt="image" src="https://github.com/user-attachments/assets/24aa62aa-1f3a-415a-b4ec-0af5b2b55c19" />
+<img width="100%" alt="image" src="https://github.com/user-attachments/assets/5f619bec-b9d9-4259-9ca6-8a66ac12b21b" />
 
 #### Categories
 
-<img width="100%" alt="image" src="https://github.com/user-attachments/assets/94b40e2b-2fc5-4fde-88c6-8592f31482a8" />
+<img width="100%" alt="image" src="https://github.com/user-attachments/assets/3a83da0f-4104-47ff-8c8b-beb415b86f5f" />
 
 ### Functionalities
 
