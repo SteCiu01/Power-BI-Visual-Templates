@@ -76,10 +76,6 @@ Before running these DAX Query View codes in steps 3 and 5 make sure the 'Measur
 - Change the codes below replacing 'MeasuresTable' with 'Tables for Measures'
 - Run these codes in your model to add the measures.
 
-Following these steps you avoid the mismatch between the template and your model. 
-
-You will just need to substitute the x-axis fields with your fields.
-
 ```
 DEFINE
 
