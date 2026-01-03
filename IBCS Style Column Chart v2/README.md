@@ -381,7 +381,7 @@ Replicating this template in your own report is quick: depending on the number o
 
 The only limitations are: 
 
-- The need of re-ma the measures as they break using Direct Lake.
+- The need of re-mapping the measures as they break using Direct Lake.
 - The need to fine-tune the colors of the bars and variance indicators depending on your report theme, as color settings cannot be fully automated via the measure-based color logic. This can easily be corrected using the IBCS theme included with the template.
 - The need of fine tuning data labels after re-mappinng the measures.
 
