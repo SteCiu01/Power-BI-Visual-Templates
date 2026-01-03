@@ -27,6 +27,7 @@ Desktop-based templates, on the other hand, offer maximum flexibility and contro
 | Template | Description | Compatibility | Link |
 | -------- | ----------- | ---- | ---- |
 | IBCS Style Column Chart | Column Chart formatted in IBCS stye | PBI Desktop | [Link](https://github.com/SteCiu01/Power-BI-Visual-Templates/tree/main/IBCS%20Style%20Column%20Chart) |
+| IBCS Style Column Chart v2 | Column Chart formatted in IBCS stye | Direct Lake and PBI Desktop Models | [Link](https://github.com/SteCiu01/Power-BI-Visual-Templates/tree/main/IBCS%20Style%20Column%20Chart%20v2) |
 | IBCS Style Column Chart Simplified | Column Chart formatted in IBCS stye, but simplified and displaying the % Variance only | PBI Desktop | [Link](https://github.com/SteCiu01/Power-BI-Visual-Templates/tree/main/IBCS%20Style%20Column%20Chart%20Simplified) |
 
 <hr>
