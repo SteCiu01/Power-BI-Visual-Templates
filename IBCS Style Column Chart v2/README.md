@@ -128,7 +128,7 @@ DEFINE
 )
 ```
 
-**⚙️ Step 4: Labels Format**
+**⚙️ Step 4: Labels Format Measures**
 
 Since you can decide to move from $ to count and vice versa, by switching measures, we need to set up a dynamic formatting for both measures, based on whether the selected measure is a $ or a count.
 
