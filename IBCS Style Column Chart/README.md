@@ -248,6 +248,6 @@ Replicating this template in your own report is quick: depending on the number o
 The only limitations are: 
 
 - The need to fine-tune the colors of the bars and variance indicators depending on your report theme, as color settings cannot be fully automated via the measure-based color logic. This can easily be corrected using the IBCS theme included with the template.
-- Δ vs. SPLY labels do not support display units: Auto - there is the need to set manually thousands, millions, etc. - You can however replicate the Format Labels Measures and their usage, explained inn the [IBCS Style Column Chart v2 - Direct Lake Compatible](https://github.com/SteCiu01/Power-BI-Visual-Templates/blob/main/IBCS%20Style%20Column%20Chart%20v2/README.md). This offer maximum customization for what displayed in data labels. 
+- Δ vs. SPLY labels do not support display units: Auto - there is the need to set manually thousands, millions, etc. - You can however replicate the Format Labels Measures and their usage, explained in the [IBCS Style Column Chart v2 - Direct Lake Compatible](https://github.com/SteCiu01/Power-BI-Visual-Templates/blob/main/IBCS%20Style%20Column%20Chart%20v2/README.md). This offer maximum customization for what displayed in data labels. 
 
 Please let me know in case of bugs and/or improvements, I am very open to have some cooperations.
