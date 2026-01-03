@@ -359,11 +359,7 @@ You need to fix them substituting the broken measures as in the following places
 [IBCS_Column_Chart_Δ-grey-line-height] -> Line y-axis (hidden) and Visual Format > Error Bars > Δ Positive > Upper Bound and Δ Negative > Lower Bound
 [IBCS_Column_Chart_Title] -> Visual Format > Title > Text
 ```
-However, the colour of the columns and variances might be different depending on your theme. If you want to adjust them based on your theme, you need to manually play with the formatting for the following:
-- Columns
-- Lines
-- Markers
-- Error Bars
+However, the colour of the columns and variances, but also of other charts elements, might be different depending on your theme. If you want to change them, you need to manually play with the formatting.
 
 If you want to keep the IBCS style theme you can download it [at this link](https://github.com/SteCiu01/Power-BI-Visual-Templates/blob/main/IBCS%20Style%20Column%20Chart%20v2/Theme_IBCS.json) and upload it in your report.
 
