@@ -247,6 +247,5 @@ Replicating this template in your own report is quick: depending on the number o
 The only limitations are: 
 
 - The need to fine-tune the colors of the bars and variance indicators depending on your report theme, as color settings cannot be fully automated via the measure-based color logic. This can easily be corrected using the IBCS theme included with the template.
-- Models authored online and consumed in Direct Lake show instability in measure bindings, often requiring re-mapping of measures in visuals. Additionally, dynamic formatting is not supported in online authoring and behaves inconsistently when applied from Desktop to an online-based model.
 
 Please let me know in case of bugs and/or improvements, I am very open to have some cooperations.
