@@ -65,7 +65,7 @@ DATATABLE (
 
 **⚠ IMPORTANT**
 
-Before running these DAX Query View codes in steps 3 and 5 make sure the 'MeasuresTable' in the code has the same name of your table where you want to save the measures. 
+Before running these DAX Query View codes in steps 3, 4 and 5 make sure the 'MeasuresTable' in the code has the same name of your table where you want to save the measures. 
 
 ‼️ This is crucial to make everything work smoothly: if your measures table is called 'Tables for Measures', for example, follow these steps:
 
