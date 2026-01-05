@@ -61,7 +61,7 @@ DATATABLE (
 )
 ```
 
-**⚙️ Step 3: Create the measures [Actual] and [SPLY] that needs to be amended**
+**⚙️ Step 3: Create the measures [Actual] and [Target] that needs to be amended**
 
 **⚠ IMPORTANT**
 
