@@ -197,7 +197,7 @@ Guidelines:
 **Pro Tip:** Organise all the measures we made until now in this folder structure below
 
 ```
-📁 SPLY Column Chart
+📁 Variance Line Chart
 |
 ├─ 📁 0. Control Chart Settings
 │  ├─ Variance_Line_Chart_Highlight_Area
