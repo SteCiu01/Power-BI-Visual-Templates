@@ -39,4 +39,6 @@ Desktop-based templates, on the other hand, offer maximum flexibility and contro
 | Variance Lines | Variance lines showing Actual vs. Target, over time. | PBI Desktop Models | [Link]() |
 | Variance Lines v2 - DL Compatible | Variance lines showing Actual vs. Target, over time, with reduced numbers of measures, easier to implement in DL models | Direct Lake and PBI Desktop Models | [Link]() |
 
+<hr>
+
 Feel free to reach out if you have ideas for improvements or enhancements.
