@@ -1,10 +1,10 @@
 # Variance Lines
 
-#### Variance Area
+#### Option A: Variance Area
 
 <img width="100%" alt="image" src="https://github.com/user-attachments/assets/e6a442a2-b009-422a-aa71-4cf59887a228" />
 
-#### Variance Bars
+#### Option B: Variance Bars
 
 <img width="100%" alt="image" src="https://github.com/user-attachments/assets/fafe37af-4a80-48fa-b8a0-bd22307e0cdb" />
 
@@ -13,6 +13,8 @@
 This template allows you to visualize multiple measures within a single chart and seamlessly switch between them. It also supports drill-up and drill-down interactions across the date hierarchy defined on the X-axis.
 
 The template can be used for time-based analyses, such as Year–Quarter–Month hierarchies.
+
+The template includes 2 visualizations options: variance area and variance bars, you can choose what best fits your needs.
 
 This makes it suitable for visualising the Actual vs. Target variance, for the selected metric.
 
