@@ -76,6 +76,12 @@ Before running these DAX Query View codes in steps 3, 4 and 5 make sure the 'Mea
 - Change the codes below replacing 'MeasuresTable' with 'Tables for Measures'
 - Run these codes in your model to add the measures.
 
+Following these steps you avoid the mismatch between the template and your model. 
+
+💡 Pro Tip: at this stage you can rename the table and the fields used in the x-axis in the template (e.g., calendar table and its column names), as they are named in your model. This helps in faster synch later. 
+
+In case you don't rename the x-axis fields, you will just need to substitute the x-axis fields with your fields.
+
 ```
 DEFINE
 
