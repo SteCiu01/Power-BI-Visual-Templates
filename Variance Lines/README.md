@@ -75,7 +75,9 @@ Before running these DAX Query View codes in steps 3 and 5 make sure the 'Measur
 
 Following these steps you avoid the mismatch between the template and your model. 
 
-You will just need to substitute the x-axis fields with your fields.
+💡 Pro Tip: at this stage you can rename the table and the fields used in the x-axis in the template (e.g., calendar table and its column names), as they are named in your model. This helps in faster synch later. 
+
+In case you don't rename the x-axis fields, you will just need to substitute the x-axis fields with your fields.
 
 ```
 DEFINE
