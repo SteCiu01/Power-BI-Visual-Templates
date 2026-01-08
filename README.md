@@ -37,7 +37,7 @@ Desktop-based templates, on the other hand, offer maximum flexibility and contro
 | Template | Description | Compatibility | Link |
 | -------- | ----------- | ---- | ---- |
 | Variance Line Chart | Variance lines showing Actual vs. Target, over time. | PBI Desktop Models | [Link](https://github.com/SteCiu01/Power-BI-Visual-Templates/tree/main/Variance%20Lines) |
-| Variance Line Chart v2 - DL Compatible | Variance lines showing Actual vs. Target, over time, with reduced numbers of measures, easier to implement in DL models | Direct Lake and PBI Desktop Models | [Link](https://github.com/SteCiu01/Power-BI-Visual-Templates/tree/main/Variance%20Lines%20v2) |
+| Variance Line Chart - DL Compatible | Variance lines showing Actual vs. Target, over time, with reduced numbers of measures, easier to implement in DL models | Direct Lake and PBI Desktop Models | [Link](https://github.com/SteCiu01/Power-BI-Visual-Templates/tree/main/Variance%20Lines%20v2) |
 
 <hr>
 
