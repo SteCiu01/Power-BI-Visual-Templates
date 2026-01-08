@@ -1,4 +1,4 @@
-# IBCS Style Column Chart v2 - Direct Lake Compatible
+# IBCS Multi-tier Column Chart - Direct Lake Compatible
 
 #### Over Time
 
