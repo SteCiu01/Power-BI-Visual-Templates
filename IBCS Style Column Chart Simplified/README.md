@@ -6,7 +6,7 @@
 
 #### Categories
 
-<img width="100%0" alt="image" src="https://github.com/user-attachments/assets/866d7a24-2c62-4f77-a618-a92fe081ab46" />
+<img width="100%" alt="image" src="https://github.com/user-attachments/assets/e1867dcc-d2f9-4d1b-9266-a9bb856dd22e" />
 
 ### Functionalities
 
