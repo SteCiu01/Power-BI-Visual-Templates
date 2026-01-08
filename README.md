@@ -26,9 +26,9 @@ Desktop-based templates, on the other hand, offer maximum flexibility and contro
 
 | Template | Description | Compatibility | Link |
 | -------- | ----------- | ---- | ---- |
-| IBCS Style Column Chart | Column Chart formatted in IBCS stye | PBI Desktop Models | [Link](https://github.com/SteCiu01/Power-BI-Visual-Templates/tree/main/IBCS%20Style%20Column%20Chart) | 
-| IBCS Style Column Chart v2 - DL Compatible | Column Chart formatted in IBCS stye with reduced numbers of measures, easier to implement in DL models | Direct Lake and PBI Desktop Models | [Link](https://github.com/SteCiu01/Power-BI-Visual-Templates/tree/main/IBCS%20Style%20Column%20Chart%20v2) | 
-| IBCS Style Column Chart Simplified | Column Chart formatted in IBCS stye, but simplified and displaying the % Variance only | PBI Desktop Models | [Link](https://github.com/SteCiu01/Power-BI-Visual-Templates/tree/main/IBCS%20Style%20Column%20Chart%20Simplified) |
+| IBCS Multi-tier Column Chart | Column Chart formatted in IBCS stye | PBI Desktop Models | [Link](https://github.com/SteCiu01/Power-BI-Visual-Templates/tree/main/IBCS%20Style%20Column%20Chart) | 
+| IBCS Multi-tier Column Chart - DL Compatible | Column Chart formatted in IBCS stye with reduced numbers of measures, easier to implement in DL Models | Direct Lake and PBI Desktop Models | [Link](https://github.com/SteCiu01/Power-BI-Visual-Templates/tree/main/IBCS%20Style%20Column%20Chart%20v2) | 
+| IBCS Multi-tier Column Chart - Only Δ % | Column Chart formatted in IBCS stye, but simplified and displaying the % Variance only | PBI Desktop Models | [Link](https://github.com/SteCiu01/Power-BI-Visual-Templates/tree/main/IBCS%20Style%20Column%20Chart%20Simplified) |
 
 <hr>
 
