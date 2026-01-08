@@ -1,4 +1,4 @@
-# IBCS Style Column Chart 
+# IBCS Multi-tier Column Chart 
 
 #### Over Time
 
