@@ -1,4 +1,4 @@
-# Variance Lines v2 - Direct Lake Compatible
+# Variance Lines - Direct Lake Compatible
 
 #### Option A: Variance Area
 
