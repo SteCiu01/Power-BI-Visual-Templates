@@ -1,4 +1,4 @@
-# IBCS Style Column Chart Simplified (Only % Variance)
+# IBCS Multi-tier Column Chart - Only Δ %
 
 #### Over Time
 
