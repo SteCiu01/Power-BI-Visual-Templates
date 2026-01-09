@@ -1,5 +1,7 @@
 # IBCS Multi-tier Column Chart - Only Δ %
 
+Simplified IBCS analytical column chart focused on relative performance, combining base values with percentage variance (Δ%) only.
+
 #### Over Time
 
 <img width="100%" alt="image" src="https://github.com/user-attachments/assets/8fba64c6-2e11-4b7f-8242-aaf090d2580b" />
