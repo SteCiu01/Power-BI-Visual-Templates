@@ -39,7 +39,7 @@ Desktop-based templates, on the other hand, offer maximum flexibility and contro
 | Template | Description | Compatibility | Link |
 | -------- | ----------- | ---- | ---- |
 | Variance Line Chart | Variance Line Chart combining actual values, reference baseline, and embedded variance indicators in a single analytical visual. | PBI Desktop Models | [Link](https://github.com/SteCiu01/Power-BI-Visual-Templates/tree/main/Variance%20Lines) |
-| Variance Line Chart - DL Compatible | Direct Lake–optimized Variance Line Chart combining actual values, reference baseline, and embedded variance indicators in a single analytical visual. It uses a reduced measures set. | Direct Lake and PBI Desktop Models | [Link](https://github.com/SteCiu01/Power-BI-Visual-Templates/tree/main/Variance%20Lines%20v2) |
+| Variance Line Chart - DL Compatible | Direct Lake–optimized Variance Line Chart combining actual values, reference baseline, and embedded variance indicators in a single analytical visual. It uses a reduced measures set. | Direct Lake and PBI Desktop Models | [Link](https://github.com/SteCiu01/Power-BI-Visual-Templates/tree/main/Variance%20Lines%20DL%20Compatible) |
 
 <hr>
 
