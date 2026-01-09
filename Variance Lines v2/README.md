@@ -1,5 +1,7 @@
 # Variance Lines - Direct Lake Compatible
 
+Direct Lake–optimized Variance Line Chart combining actual values, reference baseline, and embedded variance indicators in a single analytical visual. It uses a reduced measures set.
+
 #### Option A: Variance Area
 
 <img width="100%" alt="image" src="https://github.com/user-attachments/assets/772571fd-f7eb-4ec9-bc8f-a3b2c7be736d" />
