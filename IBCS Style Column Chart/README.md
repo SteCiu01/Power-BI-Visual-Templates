@@ -1,5 +1,7 @@
 # IBCS Multi-tier Column Chart 
 
+Layered IBCS analytical column chart combining absolute values, absolute variance (Δ), and relative variance (Δ%) in a single coordinated visual.
+
 #### Over Time
 
 <img width="100%" alt="image" src="https://github.com/user-attachments/assets/24aa62aa-1f3a-415a-b4ec-0af5b2b55c19" />
