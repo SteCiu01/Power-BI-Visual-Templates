@@ -1,5 +1,7 @@
 # IBCS Multi-tier Column Chart - Direct Lake Compatible
 
+Direct Lake–optimized IBCS multi-tier analytical column chart combining values, absolute variance (Δ), and percentage variance (Δ%) using a reduced and DL-friendly measure set.
+
 #### Over Time
 
 <img width="100%" alt="image" src="https://github.com/user-attachments/assets/5f619bec-b9d9-4259-9ca6-8a66ac12b21b" />
