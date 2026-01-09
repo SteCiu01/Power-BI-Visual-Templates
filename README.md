@@ -26,9 +26,9 @@ Desktop-based templates, on the other hand, offer maximum flexibility and contro
 
 | Template | Description | Compatibility | Link |
 | -------- | ----------- | ---- | ---- |
-| IBCS Multi-tier Column Chart | Column Chart formatted in IBCS stye | PBI Desktop Models | [Link](https://github.com/SteCiu01/Power-BI-Visual-Templates/tree/main/IBCS%20Style%20Column%20Chart) | 
-| IBCS Multi-tier Column Chart - DL Compatible | Column Chart formatted in IBCS stye with reduced numbers of measures, easier to implement in DL Models | Direct Lake and PBI Desktop Models | [Link](https://github.com/SteCiu01/Power-BI-Visual-Templates/tree/main/IBCS%20Style%20Column%20Chart%20v2) | 
-| IBCS Multi-tier Column Chart - Only Δ % | Column Chart formatted in IBCS stye, but simplified and displaying the % Variance only | PBI Desktop Models | [Link](https://github.com/SteCiu01/Power-BI-Visual-Templates/tree/main/IBCS%20Style%20Column%20Chart%20Simplified) |
+| IBCS Multi-tier Column Chart | Layered IBCS analytical column chart combining absolute values, absolute variance (Δ), and relative variance (Δ%) in a single coordinated visual. | PBI Desktop Models | [Link](https://github.com/SteCiu01/Power-BI-Visual-Templates/tree/main/IBCS%20Style%20Column%20Chart) | 
+| IBCS Multi-tier Column Chart - DL Compatible | Direct Lake–optimized IBCS multi-tier analytical column chart combining values, absolute variance (Δ), and percentage variance (Δ%). It uses a reduced measures set. | Direct Lake and PBI Desktop Models | [Link](https://github.com/SteCiu01/Power-BI-Visual-Templates/tree/main/IBCS%20Style%20Column%20Chart%20v2) | 
+| IBCS Multi-tier Column Chart - Only Δ % | Simplified IBCS analytical column chart focused on relative performance, combining base values with percentage variance (Δ%) only. | PBI Desktop Models | [Link](https://github.com/SteCiu01/Power-BI-Visual-Templates/tree/main/IBCS%20Style%20Column%20Chart%20Simplified) |
 | IBCS Integrated Variance Column Chart | Coming soon | PBI Desktop Models | Link not yet available |
 | IBCS Integrated Variance Column Chart - DL Compatible | Coming soon | Direct Lake and PBI Desktop Models | Link not yet available |
 
@@ -38,8 +38,8 @@ Desktop-based templates, on the other hand, offer maximum flexibility and contro
 
 | Template | Description | Compatibility | Link |
 | -------- | ----------- | ---- | ---- |
-| Variance Line Chart | Variance lines showing Actual vs. Target, over time. | PBI Desktop Models | [Link](https://github.com/SteCiu01/Power-BI-Visual-Templates/tree/main/Variance%20Lines) |
-| Variance Line Chart - DL Compatible | Variance lines showing Actual vs. Target, over time, with reduced numbers of measures, easier to implement in DL models | Direct Lake and PBI Desktop Models | [Link](https://github.com/SteCiu01/Power-BI-Visual-Templates/tree/main/Variance%20Lines%20v2) |
+| Variance Line Chart | Variance Line Chart combining actual values, reference baseline, and embedded variance indicators in a single analytical visual. | PBI Desktop Models | [Link](https://github.com/SteCiu01/Power-BI-Visual-Templates/tree/main/Variance%20Lines) |
+| Variance Line Chart - DL Compatible | Direct Lake–optimized Variance Line Chart combining actual values, reference baseline, and embedded variance indicators in a single analytical visual. It uses a reduced measures set. | Direct Lake and PBI Desktop Models | [Link](https://github.com/SteCiu01/Power-BI-Visual-Templates/tree/main/Variance%20Lines%20v2) |
 
 <hr>
 
