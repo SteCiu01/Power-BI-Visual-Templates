@@ -22,7 +22,7 @@ This makes it suitable for visualising the Actual vs. Target variance, for the s
 
 **⚙️ Step 1: download the template in pbix**
 
-[📥 Download Here](https://github.com/SteCiu01/Power-BI-Visual-Templates/raw/refs/heads/main/Variance%20Lines/Visuals%20Templates%20Variance%20Lines.pbix)
+[📥 Download Here](https://github.com/SteCiu01/Power-BI-Visual-Templates/raw/refs/heads/main/Variance%20Lines/Files/Variance%20Line%20Charts.pbix)
 
 **⚙️ Step 2: Create the measures selector (parameter) table**
 
@@ -238,7 +238,7 @@ However, the colour of the lines and variances might be different depending on y
 - Markers
 - Error Bars/Bands
 
-If you want to keep the IBCS style theme to match the color coding of the template you can download it [at this link](https://github.com/SteCiu01/Power-BI-Visual-Templates/blob/main/Variance%20Lines/Theme_IBCS.json) and upload it in your report.
+If you want to keep the IBCS style theme to match the color coding of the template you can download it [at this link](https://github.com/SteCiu01/Power-BI-Visual-Templates/blob/main/Variance%20Lines/Files/Theme_IBCS.json) and upload it in your report.
 
 ### Final Considerations and limitations
 
