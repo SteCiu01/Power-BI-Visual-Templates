@@ -1,5 +1,7 @@
 # Variance Lines
 
+Variance Line Chart combining actual values, reference baseline, and embedded variance indicators in a single analytical visual.
+
 #### Option A: Variance Area
 
 <img width="100%" alt="image" src="https://github.com/user-attachments/assets/e6a442a2-b009-422a-aa71-4cf59887a228" />
