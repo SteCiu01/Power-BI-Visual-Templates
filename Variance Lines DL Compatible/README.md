@@ -250,15 +250,24 @@ SWITCH (
         )
     )
 )
-MEASURE 'MeasuresTable'[Δ_%_vs_Target_Format] = FORMAT(
-DIVIDE(
-        ([Actual]-[Target]),
-        [Target],
+MEASURE 'MeasuresTable'[Δ_%_vs_SPLY_Format] = 
+VAR _delta = [Actual] - [SPLY]
+VAR _pct =
+    DIVIDE(
+        _delta,
+        [SPLY],
         BLANK()
-    ),
-    "0.0%; (0.0%); 0.0%"
+    )
+RETURN
+SWITCH(
+    TRUE(),
+    _delta > 0,
+        FORMAT(_pct, "+0.0%; +0.0%; +0.0%"),
+    _delta < 0,
+        FORMAT(_pct, "-0.0%; -0.0%; -0.0%"),
+    ABS(_delta) < 1e-6,
+        FORMAT(_pct, "0.0%; 0.0%; 0.0%")
 )
-
 ```
 
 Guidelines:
