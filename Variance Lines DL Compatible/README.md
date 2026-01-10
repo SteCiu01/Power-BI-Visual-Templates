@@ -268,7 +268,7 @@ SWITCH(
         FORMAT(_pct, "+0.0%; +0.0%; +0.0%"),
     _delta < 0,
         FORMAT(_pct, "-0.0%; -0.0%; -0.0%"),
-    ABS(_delta) < 1e-6,
+    ABS(_delta) = 0,
         FORMAT(_pct, "0.0%; 0.0%; 0.0%")
 )
 ```
