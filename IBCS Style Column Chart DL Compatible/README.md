@@ -220,13 +220,22 @@ SWITCH (
 -- 2 - Format Δ % vs SPLY
 
 MEASURE 'MeasuresTable'[Δ_%_vs_SPLY_Format] = 
-FORMAT(
+VAR _delta = [Actual] - [SPLY]
+VAR _pct =
     DIVIDE(
-        ([Actual]-[SPLY]),
+        _delta,
         [SPLY],
         BLANK()
-    ),
-    "0.0%; (0.0%); 0.0%"
+    )
+RETURN
+SWITCH(
+    TRUE(),
+    _delta > 0,
+        FORMAT(_pct, "0.0%; 0.0%; 0.0%"),
+    _delta < 0,
+        FORMAT(_pct, "(0.0%); (0.0%); (0.0%)"),
+    ABS(_delta) < 1e-6,
+        FORMAT(_pct, "0.0%; 0.0%; 0.0%")
 )
 
 
