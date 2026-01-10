@@ -250,6 +250,9 @@ SWITCH (
         )
     )
 )
+
+
+
 MEASURE 'MeasuresTable'[Δ_%_vs_SPLY_Format] = 
 VAR _delta = [Actual] - [SPLY]
 VAR _pct =
