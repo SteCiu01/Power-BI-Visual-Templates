@@ -1,4 +1,4 @@
-# IBCS Integrated Variance Column Chart
+# IBCS Integrated Variance Column Chart - Direct Lake Compatible
 
 Two-layer IBCS analytical column chart that integrates absolute variance (Δ) directly into the value columns while displaying relative variance (Δ%) as a separate lollipop layer.
 
