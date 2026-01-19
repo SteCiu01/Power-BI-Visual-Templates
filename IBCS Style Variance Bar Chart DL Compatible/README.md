@@ -422,10 +422,9 @@ DEFINE
 ///////////////////////////////////////////////
 
 MEASURE 'MeasuresTable'[IBCS_Bar_Chart_Title] = 
-"Top 15 Products - " & 
 SELECTEDVALUE('IBCS-Column-Chart-Measures-Selector'[Measure]) & 
-"‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎" & 
-"⬛ Actual vs. ⬜ SPLY"
+" - " & 
+"⬛ Actual | ⬜ SPLY"
      
 MEASURE 'MeasuresTable'[IBCS_Bar_Chart_Actual_Upper_Bound] = 
 IF(
