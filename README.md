@@ -43,4 +43,10 @@ Desktop-based templates, on the other hand, offer maximum flexibility and contro
 
 <hr>
 
+### Bar Charts
+
+| Template | Description | Compatibility | Link |
+| -------- | ----------- | ---- | ---- |
+| IBCS Integrated Variance Bar Chart - DL Compatible | Direct Lake–optimized IBCS integrated variance bar chart combining ranked absolute values with embedded absolute variance (Δ vs SPLY) and a dedicated relative variance (Δ%) comparison panel. | Direct Lake and PBI Desktop Models | [Link](https://github.com/SteCiu01/Power-BI-Visual-Templates/tree/main/IBCS%20Style%20Variance%20Bar%20Chart%20DL%20Compatible) |
+
 Feel free to reach out if you have ideas for improvements or enhancements.
