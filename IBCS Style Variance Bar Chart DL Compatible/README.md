@@ -4,7 +4,8 @@ IBCS integrated variance bar chart combining ranked absolute values with embedde
 
 #### Visual Preview
 
-<img width="777" height="557" alt="image" src="https://github.com/user-attachments/assets/4fdd229d-baac-436c-9ada-c834dc4d16a2" />
+<img width="870" height="636" alt="image" src="https://github.com/user-attachments/assets/85f96e67-a0a5-48a3-be89-ad1d5e88faf1" />
+
 
 ### Functionalities
 
