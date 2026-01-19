@@ -424,7 +424,7 @@ DEFINE
 MEASURE 'MeasuresTable'[IBCS_Bar_Chart_Title] = 
 SELECTEDVALUE('IBCS-Column-Chart-Measures-Selector'[Measure]) & 
 " - " & 
-"⬛ Actual | ⬜ SPLY"
+"⬛ AC | ⬜ SPLY"
      
 MEASURE 'MeasuresTable'[IBCS_Bar_Chart_Actual_Upper_Bound] = 
 IF(
