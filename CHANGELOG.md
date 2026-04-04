@@ -11,34 +11,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Versioning and release structure
 - Comprehensive release process documentation
 
-## [0.9.0] - 2026-01-19
+### Features
+- Complete collection of IBCS-style analytics templates
+- Direct Lake optimization for all templates
+- Comprehensive template documentation and selection guides
+- Ready-to-use .pbix files with working examples
+- Multiple template variations for different use cases
+- Full repository documentation and contribution guidelines
 
-### Added
-- **IBCS Integrated Variance Bar Chart - DL Compatible** - Ranked bar chart with absolute values, embedded variance (Δ), and Δ% comparison
-- All Direct Lake compatible template variants finalized
-- Complete template documentation for all variations
+---
 
-### Changed
-- Resolved file organization and naming conventions
-- Finalized all DL compatibility testing
+### Development Timeline (Pre-release versions)
 
-## [0.5.0] - 2026-01-09
-
-### Added
-- **IBCS Integrated Variance Column Chart** - Two-layer chart with embedded absolute variance integrated into base layer, plus Δ% layer
-- **IBCS Integrated Variance Column Chart - DL Compatible** - DL-optimized variant
-- **Variance Line Chart** - Analytical line chart combining actual values, reference baseline, and embedded variance indicators
-- **Variance Line Chart - DL Compatible** - Simplified variance line chart optimized for Direct Lake models
-- Enhanced template documentation and setup guides
-- IBCS theme file (Theme_IBCS.json) for consistent visual styling
-
-### Changed
-- Improved parameter system with DAX DATATABLE approach
-- Refined Direct Lake compatibility approach
-
-## [0.1.0] - 2025-12-27
-
-### Added
+**Initial Development (2025-12-27)**
 - **IBCS Multi-tier Column Chart** - Three-layer analytical chart combining base values, absolute variance (Δ), and percentage variance (Δ%)
 - **IBCS Multi-tier Column Chart - DL Compatible** - Direct Lake optimized version
 - **IBCS Multi-tier Column Chart - Simplified** - Two-layer variant focused on relative performance (base values + Δ% only)
@@ -46,3 +31,31 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Comprehensive README with template selection guide
 - MIT License
 - Repository documentation and contribution guidelines
+
+**Template Expansion (2026-01-09)**
+- **IBCS Integrated Variance Column Chart** - Two-layer chart with embedded absolute variance integrated into base layer, plus Δ% layer
+- **IBCS Integrated Variance Column Chart - DL Compatible** - DL-optimized variant
+- **Variance Line Chart** - Analytical line chart combining actual values, reference baseline, and embedded variance indicators
+- **Variance Line Chart - DL Compatible** - Simplified variance line chart optimized for Direct Lake models
+- Enhanced template documentation and setup guides
+- IBCS theme file (Theme_IBCS.json) for consistent visual styling
+- Improved parameter system with DAX DATATABLE approach
+- Refined Direct Lake compatibility approach
+
+**Final Enhancements (2026-01-19)**
+- **IBCS Integrated Variance Bar Chart - DL Compatible** - Ranked bar chart with absolute values, embedded variance (Δ), and Δ% comparison
+- All Direct Lake compatible template variants finalized
+- Complete template documentation for all variations
+- Resolved file organization and naming conventions
+- Finalized all DL compatibility testing
+- Release v1.0.0
+
+---
+
+## [Unreleased]
+
+### Planned
+- Additional template variations and specialized variants
+- Enhanced documentation and tutorial content
+- Performance optimizations for large datasets
+- Community-contributed templates and examples
