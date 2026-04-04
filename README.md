@@ -1,5 +1,7 @@
 # Power BI Visual Templates
 
+[![Latest Release](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/SteCiu01/Power-BI-Visual-Templates/releases)
+
 Reusable, parameter-driven visual templates built on native Power BI visuals with visual calculations.
 
 These templates encapsulate business logic at the visual layer, making them easy to copy-paste across reports with minimal setup.
