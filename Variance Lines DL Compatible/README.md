@@ -67,7 +67,7 @@ DATATABLE (
 
 **⚠ IMPORTANT**
 
-Before running these DAX Query View codes in steps 3, 4 and 5 make sure the 'MeasuresTable' in the code has the same name of your table where you want to save the measures. 
+Before running these DAX Query View codes in steps 3, 4 and 5 make sure the 'MeasuresTable' in the code has the same name as your table where you want to save the measures. 
 
 ‼️ This is crucial to make everything work smoothly: if your measures table is called 'Tables for Measures', for example, follow these steps:
 
@@ -103,7 +103,7 @@ Guidelines
 - The structure is set so that when the parameter is used in a slicer, the correct measure is displayed based on the selection.
 - In our template we set in the parameter the possibility to switch between Total Sales ($) and Total Qty Sold, therefore for both metrics we need Actual and SPLY.
 - Replace the 4 sample measures of the template ([Total Sales $], [Total Sales Qty], [SPLY Sales $], [SPLY Sales Qty]) with your measures that you have referenced in the parameter table.
-- Once creates, format Actual and SPLY ad Decimal.
+- Once created, format Actual and SPLY as Decimal.
 
 Here you can see the column "Measure" of the parameter table used in the slicer for selecting what measure to display
 

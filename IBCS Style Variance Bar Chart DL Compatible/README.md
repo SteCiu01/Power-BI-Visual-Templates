@@ -64,7 +64,7 @@ DATATABLE (
 
 **⚠ IMPORTANT**
 
-Before running these DAX Query View codes in steps 3, 4 and 5 make sure the 'MeasuresTable' in the code has the same name of your table where you want to save the measures. 
+Before running these DAX Query View codes in steps 3, 4 and 5 make sure the 'MeasuresTable' in the code has the same name as your table where you want to save the measures. 
 
 ‼️ This is crucial to make everything work smoothly: if your measures table is called 'Tables for Measures', for example, follow these steps:
 
@@ -570,6 +570,6 @@ The only limitations are:
 - The need of re-mapping the measures as they break using Direct Lake.
 - The need to fine-tune the colors of the bars and variance indicators depending on your report theme, as color settings cannot be fully automated via the measure-based color logic. This can easily be corrected using the IBCS theme included with the template.
 - The need of fine tuning data labels after re-mappinng the measures.
-- Adjust or remove your TopN at visual levvel.
+- Adjust or remove your TopN at visual level.
 
 Please let me know in case of bugs and/or improvements, I am very open to have some cooperations.

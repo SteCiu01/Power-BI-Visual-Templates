@@ -67,7 +67,7 @@ DATATABLE (
 
 **⚠ IMPORTANT**
 
-Before running these DAX Query View codes in steps 3 and 5 make sure the 'MeasuresTable' in the code has the same name of your table where you want to save the measures. 
+Before running these DAX Query View codes in steps 3 and 5 make sure the 'MeasuresTable' in the code has the same name as your table where you want to save the measures. 
 
 ‼️ This is crucial to make everything work smoothly: if your measures table is called 'Tables for Measures', for example, follow these steps:
 
@@ -138,7 +138,7 @@ Since you can decide to move from $ to count and vice versa, by switching measur
 
 <img width="1040" height="219" alt="image" src="https://github.com/user-attachments/assets/6ca589ea-2d66-48a4-b4d3-7b2a10f84177" />
 
-In the measure formatting options, choose dynamic. This let's you to write a conditional formatting for the measure, based on the type of measure you are calling using the parameter.
+In the measure formatting options, choose dynamic. This lets you write a conditional formatting for the measure, based on the type of measure you are calling using the parameter.
 
 Here the FORMAT code for both [Actual] and [Target]:
 
